@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Unbounded:wght@200..900&display=swap');
+
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+.navbar {
+    padding: 30px;
+    border: 2px dashed black;
+    background-color: rgb(192, 210, 255);
+}
+
+h1, h2, h3{
+    font-family: "Unbounded", sans-serif;
+}
+
+h1{
+    font-size: 3.8em;
+}
+
+h2, h3{
+    font-size: 2.2em;
+}
+
+p{
+    font-size: 1em;
+}
+
+main{
+    margin: 150px;
+}
+
+.title{
+    margin-bottom: 130px;   
+}
+
+.row{
+    display: flex;
+    margin-bottom: 130px; 
+}
+
+.col-md-5{
+    max-height: 50vh;
+}
+
+.row img{
+    height: 100% !important ;
+    width: 100% !important ;
+
+    object-fit: cover;
+}
+
+.rounded-bottom-right {
+    border-bottom-right-radius: 40px;
+}
+
+.rounded-bottom-left {
+    border-bottom-left-radius: 40px;
+}
+
+footer{
+    background-color: rgb(192, 210, 255);
+    height: 200px;
+    padding-top: 50vh;
+}
+
+@media(max-width: 768px){
+
+    body {
+    font-size: 10px;
+    }
+    
+    }
